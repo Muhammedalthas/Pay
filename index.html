@@ -5,26 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pay ₹332</title>
 
-    <script>
-        window.onload = function () {
-            window.location.href =
-            "upi://pay?pa=muhammedalthas2003-1@okaxis&pn=Muhammed%20Althas&am=332&cu=INR";
-        };
-    </script>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            padding:40px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0f9d58;
+            color:white;
+            padding:15px 25px;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:18px;
+            margin-top:20px;
+        }
+
+        .btn:hover{
+            background:#0b8043;
+        }
+    </style>
 </head>
-
 <body>
-    <h2>Opening Payment App...</h2>
 
-    <p>If the payment app does not open automatically, click below:</p>
+    <h2>💳 Pay ₹332</h2>
 
-    <p>
-        <a href="upi://pay?pa=muhammedalthas2003-1@okaxismed%20Althas&am=332&cu=INR
-            Pay ₹332 Now
-        </a>
-    </p>
+    <p>UPI ID: <strong>muhammedalthas2003-1@okaxis</strong></p>
 
-    <p><strong>Amount:</strong> ₹332</p>
-    <p><strong>UPI ID:</strong> muhammedalthas2003-1@okaxis</p>
+    <a class="btn"
+       href="upi://pay?pa=muhammedalthas2003-1&am=332&cu=INR
+       Pay Now
+    </a>
+
+    <br><br>
+
+    <a class="btn"
+       href="upi://pay?pa=muhammedalthas2003-1@okaxis&pn=Muhammed%20Althas&cu=INR">
+
 </body>
 </html>
