@@ -31,7 +31,7 @@ h1{
     margin-bottom: 50px;
 }
 
-.amount{
+.amount-btn{
     display:inline-block;
     background:#19a948;
     color:#fff;
@@ -39,10 +39,19 @@ h1{
     font-weight:bold;
     padding:22px 60px;
     border-radius:18px;
+    text-decoration:none;
 }
 </style>
 
+<script>
+function payNow() {
+    window.location.href =
+    "upi://pay?pa=muhammedalthas2003-1@okaxis&pn=Muhammed%20Althas&am=332&cu=INR";
+}
+</script>
+
 </head>
+
 <body>
 
 <h1>💳 Pay ₹332</h1>
@@ -55,9 +64,7 @@ h1{
     UPI ID: <strong>muhammedalthas2003-1@okaxis</strong>
 </div>
 
-<div class="amount">
-    Amount: ₹332
-</div>
-
-</body>
-</html>
+<a href="#"
+   class="amount-btn"
+   onclick="payNow(); return false;">
+   Amount: ₹332
