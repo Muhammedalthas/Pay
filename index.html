@@ -1,175 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LK Onam Celebration 2026</title>
 
-    <meta name="viewport"
-          content="width=device-width,
-                   initial-scale=1.0,
-                   maximum-scale=1.0,
-                   viewport-fit=cover">
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    text-align:center;
+    padding:40px 20px;
+}
 
-    <meta name="theme-color" content="#202124">
+.container{
+    max-width:600px;
+    margin:auto;
+}
 
-    <title>Pay ₹332</title>
+h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+.event{
+    color:#d35400;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
 
-        body {
-            margin: 0;
-            padding: 24px 16px;
-            min-height: 100vh;
-            background-color: #f5f7fa;
-            font-family: -apple-system, BlinkMacSystemFont,
-                         "Segoe UI", Roboto, Arial, sans-serif;
-            text-align: center;
-            color: #202124;
-        }
+.upi{
+    font-size:22px;
+    margin-bottom:40px;
+}
 
-        .payment-card {
-            width: 100%;
-            max-width: 430px;
-            margin: 0 auto;
-            padding: 24px 18px;
-            background-color: #ffffff;
-            border-radius: 20px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-        }
+.pay-btn{
+    display:inline-block;
+    background:#16a34a;
+    color:white;
+    text-decoration:none;
+    padding:20px 50px;
+    border-radius:15px;
+    font-size:32px;
+    font-weight:bold;
+}
 
-        h1 {
-            margin: 0 0 8px;
-            font-size: 30px;
-        }
+.pay-btn:hover{
+    background:#15803d;
+}
 
-        .amount {
-            margin: 8px 0;
-            color: #0b8043;
-            font-size: 36px;
-            font-weight: 700;
-        }
+.amount{
+    margin-top:30px;
+    font-size:28px;
+    font-weight:bold;
+}
 
-        .receiver {
-            margin: 8px 0 20px;
-            font-size: 17px;
-        }
-
-        .qr-image {
-            display: block;
-            width: 100%;
-            max-width: 340px;
-            height: auto;
-            margin: 18px auto;
-            border-radius: 16px;
-        }
-
-        .instruction {
-            margin: 16px 0;
-            color: #5f6368;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        .pay-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            min-height: 58px;
-            margin-top: 18px;
-            padding: 16px 20px;
-            border-radius: 14px;
-            background-color: #0b8043;
-            color: #ffffff;
-            font-size: 19px;
-            font-weight: 700;
-            text-decoration: none;
-            -webkit-tap-highlight-color: transparent;
-            touch-action: manipulation;
-        }
-
-        .pay-button:active {
-            background-color: #086b37;
-            transform: scale(0.98);
-        }
-
-        .custom-button {
-            background-color: #1a73e8;
-        }
-
-        .custom-button:active {
-            background-color: #1558b0;
-        }
-
-        .upi-box {
-            margin-top: 22px;
-            padding: 14px;
-            background-color: #f1f3f4;
-            border-radius: 12px;
-            overflow-wrap: anywhere;
-        }
-
-        .upi-label {
-            margin: 0 0 5px;
-            color: #5f6368;
-            font-size: 14px;
-        }
-
-        .upi-id {
-            margin: 0;
-            font-size: 17px;
-            font-weight: 700;
-        }
-
-        .note {
-            margin: 18px 0 0;
-            color: #5f6368;
-            font-size: 13px;
-            line-height: 1.4;
-        }
-    </style>
+.poster{
+    margin-top:30px;
+    max-width:100%;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+</style>
 </head>
 
 <body>
 
-    <main class="payment-card">
+<div class="container">
 
-        <h1>Make Payment</h1>
+<h1>💳 Pay ₹332</h1>
 
-        <div class="amount">₹332</div>
+<div class="event">
+LK Onam Celebration 2026
+</div>
 
-        <p class="receiver">
-            Payment to <strong>Muhammed Althas</strong>
-        </p>
+<div class="upi">
+UPI ID: <strong>muhammedalthas2003-1@okaxis</strong>
+</div>
 
-        <img
-            src="payment-qr.jpeg"
-            alt="     Tap the button below to open a UPI payment app,
-            or scan the QR code using another device.
-        </p>
+<a class="pay-btn"
+href="upi://pay?pa=muhammedalthas2003-1@okaxis&pn=Muhammed%20Althas&am=332& class="amount">
+Amount: ₹332
+</div>
 
-        <a
-            class="pay-button"
-            href="upi://pay?pa=muhammedalthas2003-1@okaxis&amp;pn Pay ₹332 Now
-        </a>
-
-        <a
-            class="pay-button custom-button"
-            href="upi://pay?pa=muhammedalthas2003fferent Amount
-        </a>
-
-        <div class="upi-box">
-            <p class="upi-label">UPI ID</p>
-            <p class="upi-id">muhammedalthas2003-1@okaxis</p>
-        </div>
-
-        <p class="note">
-            Please verify the recipient name in the payment app before paying.
-        </p>
-
-    </main>
-
-</body>
+<img src="onam.jpg</body>
 </html>
